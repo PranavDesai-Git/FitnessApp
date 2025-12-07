@@ -1,60 +1,26 @@
-# MoveMentor – AI Fitness & Diet Assistant
+MOVEMENTOR is a poject which is aimed to improve the fitness and diets of a person.It is also used to track the eating habits and the fitness routine of the user.This project mainly focus on the two things: Posture correction and Diet of the user.
+The posture correction is been deteched by using the mobile webcam or the phone camera.We train the model by using the refernce videos and we will award points if the posture is done correct and also if the posture is wrong then they will be a warning saying that it is a wrong posture.
+For the Diet plan there will be questions in which they ask about the Height,Weight by those we calculate the BMI and then ask questions about vegetrainian or non-vegetrainian any kind of diesases the user has or any allegeries oon any food and the availability of the electrical appliance and also the amount the user can allot for the meal.
+There also an option where the user can add the photo by which it tells all the necessary nutritional value of the food uploaded by the user.The values maybe appoximately which cant be the exact value as we doesn't know the value of food weight.
 
-MoveMentor is an AI fitness and diet assistant that analyzes posture in real time, gives feedback, counts reps, and tracks progress. It also collects user lifestyle, BMI, budget, and kitchen access to create personalized diet plans. Users can upload meal photos to get calorie and nutrition estimates.
+FEATURES
 
----
+1.POSTURE correction using the camera.
+2.personalized DIET planning for seperate user.
+3.MEAL photo analysis.
+4.PERSONALIZED DASHBOARD for each user.
 
-## Project Overview
+TECH STACK
 
-MoveMentor is an AI-powered fitness and nutrition system that helps users exercise correctly and eat smarter with personalized guidance. Using a webcam, it detects body keypoints, calculates joint angles, and evaluates workout form for exercises like squats, planks, and push-ups. It provides instant corrective feedback and accurate rep counting to prevent injuries and improve performance. On the diet side, MoveMentor collects details such as whether the user is a hosteller, bachelor, or living at home, whether they are a student or working professional, their budget, kitchen facilities (stove, fridge, etc.), and their height, weight, and BMI. Based on this profile, it generates practical diet plans that fit the user’s lifestyle, health goals, and affordability. Users can also upload meal photos; the app identifies the food and estimates calories and basic nutritional values, helping them stay aware of what they eat.
+Python
+MediaPipe, OpenCV (for pose detection)
+NumPy (for calculations)
+Streamlit (for interface)
+CNN models (for food recognition)
+Matplotlib / Plotly (for graphs)
 
----
+OBJECTIVE 
 
-## Features
-
-- Real-time posture detection using webcam  
-- Form evaluation and live feedback based on joint angles  
-- Repetition counting for supported exercises  
-- User onboarding (living type, student/job, budget, stove/fridge, height, weight, BMI)  
-- Personalized diet plans based on lifestyle, BMI, and budget  
-- Meal photo analysis for calorie and nutrition estimation  
-- Dashboard for posture, reps, accuracy, and recent meals
-
----
-
-## Tech Stack
-
-- Language: Python  
-- Computer Vision: MediaPipe, OpenCV  
-- Math / Logic: NumPy, Math  
-- UI / Dashboard: Streamlit  
-- Machine Learning for Food: CNN models (PyTorch/TensorFlow)  
-- Visualization: Matplotlib / Plotly  
-- Nutrition Data: Custom dataset or external nutrition APIs  
-
----
-
-## Objectives
-
-- Detect and analyze human posture in real time  
-- Improve exercise safety with automatic form feedback  
-- Track reps and performance accurately  
-- Build a lifestyle-aware diet recommendation engine  
-- Estimate calories from meal images and show nutrition details  
-
----
-
-## Project Status
-
-- Idea and design completed  
-- Initial report and documentation completed  
-- Implementation in progress  
-
----
-
-## Future Work
-
-- Voice-based coaching  
-- Better multi-food detection in one plate  
-- Mobile app version of MoveMentor  
-- Integration with smartwatches and fitness bands  
+CHECKING the posture of the user.
+PROVIDES the easy and afforadable meal options 
+Easier way to track the fitness and diet plan

@@ -13,12 +13,9 @@ There also an option where the user can add the photo by which it tells all the 
 
 ## TECH STACK
 
-- Python
-- MediaPipe, OpenCV (for pose detection)
-- NumPy (for calculations)
-- Streamlit (for interface)
-- CNN models (for food recognition)
-- Matplotlib / Plotly (for graphs)
+- React native
+- Rust
+- MySQL
 
 ## OBJECTIVE 
 
